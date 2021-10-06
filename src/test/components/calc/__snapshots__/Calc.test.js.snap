@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas calcular horas debe de mostrar <Calc /> correctamente 1`] = `
+<Fragment>
+  <section
+    className="hero is-warning"
+  >
+    <div
+      className="hero-body"
+    >
+      <div
+        className="container"
+      >
+        <h1
+          className="title has-text-centered"
+        >
+          Cálculo de horas de trabajo
+        </h1>
+      </div>
+    </div>
+  </section>
+  <section
+    className="section"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="columns"
+      >
+        <div
+          className="column"
+        >
+          <div
+            className="field"
+          >
+            <label
+              className="label"
+            >
+              Técnico
+            </label>
+            <div
+              className="control"
+            >
+              <input
+                className="input"
+                id="idTecnicoCalculo"
+                onChange={[Function]}
+                placeholder="Identificación del técnico"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="field"
+          >
+            <label
+              className="label"
+            >
+              Semana
+            </label>
+            <div
+              className="control"
+            >
+              <input
+                className="input"
+                id="yearWeek"
+                min="20210-W1"
+                name="week"
+                onChange={[Function]}
+                required={true}
+                type="week"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="columns"
+        >
+          <div
+            class="column"
+          >
+            <h3
+              className="title has-text-centered"
+            >
+              Técnico
+            </h3>
+          </div>
+          <div
+            class="column"
+          >
+            <h3
+              className="title has-text-centered"
+            >
+              Semana
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        className="field is-grouped is-grouped-right"
+      >
+        <div
+          className="control"
+        >
+          <button
+            className="button is-secondary is-outlined"
+            id="btnLimpiarCalculo"
+            onClick={[Function]}
+          >
+            Limpiar
+          </button>
+        </div>
+        <div
+          className="control"
+        >
+          <button
+            className="button is-primary"
+            id="btnObtenerCalculo"
+            onClick={[Function]}
+          >
+            Consultar
+          </button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      className="container"
+    >
+      <table
+        className="table"
+        id="table"
+      >
+        <thead>
+          <tr>
+            <th>
+              Horas normales
+            </th>
+            <th>
+              Horas nocturnas
+            </th>
+            <th>
+              Horas dominicales
+            </th>
+            <th>
+              Horas normales extra
+            </th>
+            <th>
+              Horas nocturnas extra
+            </th>
+            <th>
+              Horas dominicales extra
+            </th>
+            <th>
+              Horas totales
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td
+              colSpan="7"
+            >
+              Sin registros
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Fragment>
+`;
